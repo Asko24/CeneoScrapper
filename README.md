@@ -1,7 +1,7 @@
 # CeneoScrapper
 # Etap 1 - pobranie pojedynczeej opinii 
-- opinia : li.reviewbox
-- identyfikator : li.reviewbox["data-entry-id"]
+- opinia : li.review-box
+- identyfikator : li.review-box["data-entry-id"]
 - autor : div.reviewer-name-line
 - rekomendacja : div.product-reviewer-summary > em
 - liczba gwiazdek : span.review-score-count
