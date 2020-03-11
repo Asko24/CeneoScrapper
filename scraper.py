@@ -25,7 +25,7 @@ stars = opinion.select('span.review-score-count').pop().string
 #confirmed = opinion.select('div.product-review-pz').pop().string
 #wystawienie = opinion.select('span.review-time > time[datetime] - pierwsze wystapienie').pop().string
 #purchased = opinion.select('span.review-time > time[datetime] - drugie wystapienie').pop().string
-useful = opinion.select('button.votes-yes').pop()["data.total-vote"]s
+useful = opinion.select('button.votes-yes').pop()["data.total-vote"]
 useless = opinion.select('button.votes-no').pop()["data.total-vote"]
 content = opinion.select('p.product-review-body').pop().get_text
 #wady = opinion.select('div.cons-cell > ul')
@@ -33,5 +33,5 @@ content = opinion.select('p.product-review-body').pop().get_text
 print(useless)
 
 
-#ekstrakcja składowych dla pierwszej opinii z listy
+#ekstrakcja składowych dla pierwszej opinii z listy ss
 
