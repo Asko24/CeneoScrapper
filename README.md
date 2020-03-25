@@ -14,7 +14,10 @@
 - wady: div.cons-cell > ul
 - zalety: div.pros-cell > ul
 ## Etap 2 - pobranie wszystkich opinii z pojedynczej strony
-- zapis składowych opinii do złożonej struktury danych
+- zapis składotych opinii do złożonej struktury danych
 ## Etap 3 - pobranie wszystkich opinii o pojedynczym produkcie
 - sposób przechodzenia po kolejnych stronach z opiniami
-- export opinii do pliku (.csv / .xlsx / .json) 
+- eksport opinii do pliku (.csv lub .xlsx lub .json) 
+## Etap 4 - 
+- eliminacja powtarzających się fragmentów kodu
+- transformacja danych (typ danych, czyszczenie danych)
