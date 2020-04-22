@@ -17,7 +17,7 @@ def extract_feature(opinion, selector, attribute = None):
 #lista składowych opinii wraz z selektorami i atrybutami
 selectors = {
     "author": ['div.reviewer-name-line'],
-    "recomendation":['div.product-review-summary > em'],
+    "recommendation":['div.product-review-summary > em'],
     "stars":['span.review-score-count'],
     "content": ['p.product-review-body'],
     "pros": ['div.pros-cell > ul'],
@@ -80,3 +80,8 @@ while url is not None:
 
 with open("opinions/"+product_id+".json", 'w', encoding="UTF-8") as fp:
     json.dump(opinions_list, fp, ensure_ascii=False, separators=(",",": "), indent=4 )
+
+
+# print(len(opinions_list))
+# for opinion in opinions_list:
+#     pprint.pprint(opinion)
