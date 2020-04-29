@@ -30,3 +30,28 @@
 - zapis pobranych danych do obiektu dataframe (ramka danych)
 - wykonamie prostych obliczeń na danych
 - wykonanie prostych wykresów
+
+## Etap 6 - interfejs webowy aplikacji (framework flask)
+- zainstalowanie i uruchamianie flask'a
+- struktura aplikacji
+    /CeneoScraper  
+        /run.py  
+        /config.py  
+        /app  
+            /__init__.py
+            /routes.py  
+            /models.py  
+            /scraper.py
+            /analyzer.py
+            /static/  
+                /main.css
+                /figures/
+                    /fig.png
+            /templates/  
+                /base.html  
+            /opinions
+        /requirements.txt  
+        /.venv
+        /README.md
+- routing (nawigacja po stronach serwisu)
+- widoki (jinja)
