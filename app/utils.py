@@ -1,7 +1,3 @@
-
-
-
-
 #funkcja do ekstrakcji składowych opinii
 def extract_feature(opinion, selector, attribute = None):
     try:
